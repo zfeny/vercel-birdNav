@@ -10,7 +10,8 @@ const defaultSearchList = [
       {
         title: "Bing",
         describtion: "微软必应，纯净好用",
-        url: "https://cn.bing.com/search?q=$keyword$",
+        // url: "https://cn.bing.com/search?q=$keyword$",
+        url: "https://www.bing.com/?q=%s&FORM=HPCNEN&setmkt=en-us&setlang=zh-cn",
       },
       {
         title: "搜狗",
